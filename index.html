@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance App</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Input Section -->
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <h3 class="text-success">Enter Income</h3>
+        <input type="number" id="incomeInput" class="form-control">
+        <button class="btn btn-success mt-3" onclick="addIncome()">Add Income</button>
+      </div>
+      <div class="col-md-6">
+        <h3 class="text-primary">Enter Expense</h3>
+        <input type="number" id="expenseInput" class="form-control">
+        <button class="btn btn-primary mt-3" onclick="addExpense()">Add Expense</button>
+      </div>
+    </div>
+    <!-- Totals Section -->
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <span class="total-label">Income:</span>
+        <span id="incomeTotal" class="total-amount">0</span>
+      </div>
+      <div class="col-md-4">
+        <span class="total-label">Expenses:</span>
+        <span id="expenseTotal" class="total-amount">0</span>
+      </div>
+      <div class="col-md-4">
+        <span class="total-label">Savings:</span>
+        <span id="savingsTotal" class="total-amount">0</span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

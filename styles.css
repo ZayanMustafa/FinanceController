@@ -1,0 +1,17 @@
+body {
+    background-color: #f0f0f0;
+    padding-top: 50px;
+  }
+  
+  .container {
+    max-width: 800px;
+  }
+  
+  .total-label {
+    font-size: 1.5rem;
+  }
+  
+  .total-amount {
+    font-size: 1.25rem;
+  }
+  
