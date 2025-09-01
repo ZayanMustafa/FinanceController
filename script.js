@@ -1,3 +1,6 @@
+
+
+
 var expenseTotal = 0;
 var incomeTotal = 0;
 
